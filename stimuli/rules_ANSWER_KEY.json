@@ -1,0 +1,14 @@
+{
+  "simple": {
+    "category_1": "shape = square",
+    "category_2": "shape = triangle"
+  },
+  "conjunctive": {
+    "category_1": "shape = square AND color = green AND transparency = semi",
+    "category_2": "shape = square AND color = red AND transparency = opaque"
+  },
+  "disjunctive": {
+    "category_1": "(shape = square AND color = green) OR (shape = disc AND color = red)",
+    "category_2": "(shape = square AND color = yellow) OR (shape = disc AND color = green)"
+  }
+}

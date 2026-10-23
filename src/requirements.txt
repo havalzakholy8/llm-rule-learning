@@ -1,0 +1,6 @@
+anthropic
+openai
+google-genai
+torch
+scikit-learn
+matplotlib

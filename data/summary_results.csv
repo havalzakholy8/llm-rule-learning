@@ -1,0 +1,10 @@
+rule_set,condition,accuracy_percent,trials,stated_rule_quality
+simple,network,100,40x30 passes,correct
+simple,gemini-3.6-flash,80,15,correct
+simple,human_mean,98,40,not collected
+conjunctive,network,100,40x30 passes,wrong (shortcut)
+conjunctive,gemini-3.6-flash,87,15,correct
+conjunctive,human_mean,98,40,not collected
+disjunctive,network,100,40x30 passes,wrong (crude red heuristic)
+disjunctive,gemini-3.6-flash,67,15,mostly correct (overgeneralized red discs to all red objects)
+disjunctive,human_mean,95,40,not collected
